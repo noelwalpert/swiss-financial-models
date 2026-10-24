@@ -17,3 +17,19 @@ First public release.
 - Reverse DCF without Goal Seek: implied growth and implied WACC found by bisection with visible formulas
 - 18 checks with the statuses OK, WARNING, ERROR, INFO and MISSING, shown as a status on every sheet
 - Files: empty template and a filled example with neutral values
+
+## Swiss LBO Model
+
+### [1.0.0] 2026-10-25
+
+First public release. Release tag `lbo-v1.0.0`.
+
+- Nine sheets: Cover, Inputs, Transaction, Operations, Debt Schedule, Returns, Sensitivities, Checks, Settings
+- Sources and uses, senior debt with SARON plus margin (optional floor at 0 %), mandatory amortisation and cash sweep, junior debt with fixed or SARON based interest paid in cash or in kind
+- Interest on the opening balance: no circular reference, no iterative calculation, no macro
+- Operations built from EBITDA or from revenue with three scenarios (Bear, Base, Bull), holding period of 3 to 7 years
+- IRR, MOIC and maximum price for a target IRR as closed formulas, cross-checked with the function IRR
+- Attribution of the gain to EBITDA growth, change in multiple, debt paydown, costs and the loss beyond the equity
+- Sensitivity tables for IRR: entry against exit multiple, and entry multiple against senior debt (with five debt schedules)
+- 19 checks with the statuses OK, WARNING, ERROR, INFO and MISSING
+- Files: empty template and a filled example with neutral values

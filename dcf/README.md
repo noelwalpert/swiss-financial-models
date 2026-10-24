@@ -116,7 +116,7 @@ Value per share  = equity value / diluted shares
 - The sensitivity tables hold the free cash flows constant. Only discounting and the terminal value change.
 - The reverse DCF assumes that the value rises with growth. That holds for positive free cash flow. With a negative base free cash flow there is no implied growth, and the model says so.
 - The suggested risk-free rate is the Swiss Confederation bond, 10 years, end of month (Swiss National Bank, data portal, table rendeiduebm: September 2026, 0.586 %). It is a suggestion and you can overwrite it. The very low Swiss rate often makes the cost of equity look low, so many practitioners use a normalised rate. The market risk premium of 5.0 % in the example is an illustrative value without a source.
-- A result is only as good as its inputs. The value per share is a calculated value, not a fair value and not a price target.
+- A result is only as good as its inputs. The value per share is an implied value based on your assumptions, not a price target.
 
 ## Verification
 

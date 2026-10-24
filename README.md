@@ -9,12 +9,13 @@ Maintained by Noel Walpert, MSc Finance student at the University of Basel. The 
 | Folder | Model | Version | Status |
 |---|---|---|---|
 | [`dcf/`](dcf/) | Swiss DCF Model: discounted cash flow with reverse DCF, scenarios and sensitivities | 1.0.0 | Released |
+| [`lbo/`](lbo/) | Swiss LBO Model: leveraged buyout with SARON based interest, return of the investor and maximum price for a target return | 1.0.0 | Released |
 
-More models (for example precedent transactions and an LBO model) may follow. Each model has its own folder, its own README and its own version number. All changes are listed in [CHANGELOG.md](CHANGELOG.md).
+More models (for example precedent transactions) may follow. Each model has its own folder, its own README and its own version number. All changes are listed in [CHANGELOG.md](CHANGELOG.md).
 
 ## Not investment advice
 
-The models are illustrations for educational and informational purposes. They are not investment, legal or tax advice and not a recommendation to buy or sell any security. A value calculated with these models depends entirely on the inputs you enter. It is not a fair value and not a price target.
+The models are illustrations for educational and informational purposes. They are not investment, legal or tax advice and not a recommendation to buy or sell any security. A value calculated with these models depends entirely on the inputs you enter. It is an implied value based on your assumptions, not a price target.
 
 ## Licence
 
