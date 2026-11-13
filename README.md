@@ -8,10 +8,12 @@ Maintained by Noel Walpert, MSc Finance student at the University of Basel. The 
 
 | Folder | Model | Version | Status |
 |---|---|---|---|
-| [`dcf/`](dcf/) | Swiss DCF Model: discounted cash flow with reverse DCF, scenarios and sensitivities | 1.0.0 | Released |
+| [`dcf/`](dcf/) | Swiss DCF Model: discounted cash flow with reverse DCF, scenarios and sensitivities | 1.0.1 | Released |
+| [`precedent-transactions/`](precedent-transactions/) | Swiss Precedent Transactions Model: value range from public takeovers in Switzerland since 2013, premiums and derived multiples | 1.0.0 | Released |
 | [`lbo/`](lbo/) | Swiss LBO Model: leveraged buyout with SARON based interest, return of the investor and maximum price for a target return | 1.0.0 | Released |
+| [`fsa/`](fsa/) | Swiss Financial Statement Analysis Model: growth, margins, DuPont, ROIC, cash flow, working capital and leverage with and without leases under IFRS 16 | 1.0.0 | Released |
 
-More models (for example precedent transactions) may follow. Each model has its own folder, its own README and its own version number. All changes are listed in [CHANGELOG.md](CHANGELOG.md).
+More models may follow. Each model has its own folder, its own README and its own version number. All changes are listed in [CHANGELOG.md](CHANGELOG.md).
 
 ## Not investment advice
 
@@ -20,6 +22,8 @@ The models are illustrations for educational and informational purposes. They ar
 ## Licence
 
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You may share and adapt the files, also commercially, if you give credit. Suggested credit: "Noel Walpert, noelwalpert.com".
+
+CC BY 4.0 applies only to the models: their structure, formulas, layout and texts. It does not apply to figures taken from documents of third parties, such as the offer documents in the data set of the Swiss Precedent Transactions Model or annual reports of companies. These figures are facts from public documents, each with a link to its source, and no rights in these documents are granted.
 
 ## Contact
 

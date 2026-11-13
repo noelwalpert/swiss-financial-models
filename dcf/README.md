@@ -2,14 +2,14 @@
 
 An Excel model that values a company with discounted cash flows and also answers the reverse question: which growth does the current share price assume?
 
-Version 1.0.0. Currency: Swiss francs, amounts in millions, shares in millions, share price in CHF. Online version: [noelwalpert.com/tools/dcf-rechner](https://noelwalpert.com/tools/dcf-rechner).
+Version 1.0.1. Currency: Swiss francs, amounts in millions, shares in millions, share price in CHF. Online version: [noelwalpert.com/tools/dcf-rechner](https://noelwalpert.com/tools/dcf-rechner).
 
 ## Files
 
 | File | Content |
 |---|---|
-| [`swiss-dcf-template-v1.0.0.xlsx`](swiss-dcf-template-v1.0.0.xlsx) | Empty template. Only the switches and the technical parameters are set. Results show "n/a" and the status "Inputs missing" until you fill in the blue cells |
-| [`swiss-dcf-example-v1.0.0.xlsx`](swiss-dcf-example-v1.0.0.xlsx) | The same model filled with neutral example values of an invented company, not a real one |
+| [`swiss-dcf-template-v1.0.1.xlsx`](swiss-dcf-template-v1.0.1.xlsx) | Empty template. Only the switches and the technical parameters are set. Results show "n/a" and the status "Inputs missing" until you fill in the blue cells |
+| [`swiss-dcf-example-v1.0.1.xlsx`](swiss-dcf-example-v1.0.1.xlsx) | The same model filled with neutral example values of an invented company, not a real one |
 
 ![Cover sheet of the example](images/cover.png)
 
@@ -124,13 +124,14 @@ The same code generates these files and the downloads on noelwalpert.com. Before
 
 - Five test cases times three scenarios, plus boundary cases and the empty template, were recalculated with LibreOffice and compared with two independent implementations (TypeScript and Python). The comparison covered WACC, free cash flows and present values per year, derivation, terminal value, equity bridge, cross-checks, all 75 sensitivity cells, implied growth, implied WACC and the checks. 2,556 numbers were compared, the largest relative deviation was 4.9e-15, and no cell showed an error value.
 - A structure test checks that there are no macros, that every name is defined, that only a fixed list of functions is used, and that typed numbers appear only in blue input cells.
+- Every file was validated against the XML schemas of Office Open XML (ECMA-376, 5th edition, transitional) with the same markup compatibility rules as Excel.
 - The author checked the files by hand in Excel.
 
 LibreOffice and Excel calculate the same way in almost all cases, but this is not guaranteed. If you find a difference, please write to noel@walpert.ch.
 
 ## Cite
 
-Walpert, N. (2026). *Swiss DCF Model* (version 1.0.0). https://github.com/noelwalpert/swiss-financial-models
+Walpert, N. (2026). *Swiss DCF Model* (version 1.0.1). https://github.com/noelwalpert/swiss-financial-models
 
 ## Not investment advice
 
